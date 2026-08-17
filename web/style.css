@@ -4,6 +4,8 @@
 
     --text-color-black: #080403;
     --text-color-white:#fcf7ec;
+
+    --text-font-main:"Merriweather", serif;
 }
 
 html {
@@ -12,6 +14,19 @@ html {
 
 body {
     background-color:var(--color-bg) ;
+}
+.nav-bar{
+    margin: 50px auto;
+    width: 90%;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+.main-logo{
+    font-family: var(--text-font-main);
+    font-size: 2.5rem;
+    color: var(--text-color-white);
 }
 .main-block{
     background-color:var(--color-white) ;
