@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f0f0f;
+}
+.main-block{
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+    padding-top: 100px;
+    margin: 100px auto 0;
+    
+}
