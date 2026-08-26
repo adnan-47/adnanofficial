@@ -4,6 +4,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: fontspring-italic;
+    src: url(../assets/fonts/Fontspring-DEMO-capricho-italic.otf) format(opentype);
+}
+
 :root{
     --color-bg:#0f0f0f;
     --color-white:#eee7d6;
@@ -13,6 +18,7 @@
 
     --text-font-main:"Merriweather", serif;
     --font-heading: "fontspring", serif;
+    --font-italic:"fontspring-italic",serif;
 }
 
 
@@ -30,11 +36,20 @@ body {
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .main-logo{
     font-family: var(--text-font-main);
     font-size: 2.5rem;
     color: var(--text-color-white);
+}
+.main-nav{
+    font: var(--text-font-main);
+    color: var(--text-color-white);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 .main-block{
     background-color:var(--color-white) ;
@@ -45,18 +60,8 @@ body {
     border-radius: 24px;
     
 }
-.nav{
-    display: flex;
-    justify-content: flex-end;
-}
-.main-nav{
-    font: var(--text-font-main);
-    color: var(--text-color-white);
-    list-style: none;
-    display: flex;
-    justify-content:flex-end;
-    gap: 10px;
-}
+
+
 
 .main-block{
     background-color:var(--color-white) ;
@@ -74,4 +79,8 @@ body {
     font-size: 4rem;
     margin-top: -25px;
     color: var(--text-color-black);
+}
+
+.text-main > .text-italic{
+    font-family: var(--font-italic);
 }
