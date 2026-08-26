@@ -1,3 +1,9 @@
+@font-face {
+    font-family:fontspring; 
+    src: url(../assets/fonts/Fontspring-DEMO-capricho-regular.otf) format(opentype);
+    font-style: normal;
+}
+
 :root{
     --color-bg:#0f0f0f;
     --color-white:#eee7d6;
@@ -6,8 +12,10 @@
     --text-color-white:#fcf7ec;
 
     --text-font-main:"Merriweather", serif;
-    --font-heading: "Cinzel Decorative", serif;
+    --font-heading: "fontspring", serif;
 }
+
+
 
 html {
     scroll-behavior: smooth;
