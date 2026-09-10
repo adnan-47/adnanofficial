@@ -97,3 +97,16 @@ body {
     object-fit: cover;
     overflow: hidden;
 }
+.hero-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btn button{
+    display: flex;
+    background-color: #0f0f0f;
+    color: var(--text-color-white);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 10px;
+}
