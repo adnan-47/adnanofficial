@@ -110,3 +110,26 @@ body {
     font-size: 1rem;
     padding: 10px;
 }
+
+.about{
+    width: 70%;
+    margin: auto;
+    padding-top:50px ;
+}
+.about h2{
+    color: var(--text-color-white);
+    font: var(--font-heading);
+    font-size: 2rem;
+
+}
+
+.about h2 > .about-italic{
+    font-family: var(--font-italic);
+}
+
+.about p{
+    font:var(--text-font-main);
+    color: var(--text-color-white);
+    font-size: 1rem;
+}
+
