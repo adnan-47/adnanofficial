@@ -29,7 +29,7 @@ function Hero() {
             />
           </span>
 
-          identities, and <br/>
+          identities,and <br/>
 
           <span className="m-1.5 inline-block h-[1.5em] w-[3em] overflow-hidden rounded-xl align-middle sm:mx-2 md:rounded-2xl">
             <img
