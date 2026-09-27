@@ -12,6 +12,5 @@
 @layer base {
   body {
     background-color: #ecebe7;
-    font-family: var(--font-sans);
   }
 }
