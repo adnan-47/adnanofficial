@@ -6,6 +6,7 @@ import imgCode from '../assets/code.jpg'
 function Hero() {
   return (
     <>
+    <div className="min-h-[65svh]">
       {/* Main Image */}
       <div className="flex justify-center">
         <img
@@ -16,10 +17,10 @@ function Hero() {
       </div>
 
       {/* Hero Text */}
-      <section className="mx-auto px-5 pt-8 pb-16">
-        <h1 className="mx-auto max-w-5xl text-center font-mono text-3xl font-medium leading-[1.15] tracking-tight sm:text-4xl md:text-3xl lg:text-4xl">
+      <section className="mx-auto px-5 pt-4 pb-4">
+        <h1 className="mx-auto max-w-5xl text-center font-mono text-2xl font-medium leading-[1.15] tracking-tight sm:text-4xl md:text-3xl lg:text-4xl">
 
-          I design
+          I design 
 
           <span className="m-1.5 inline-block h-[1.5em] w-[2em] overflow-hidden rounded-xl align-middle sm:mx-2 md:rounded-2xl">
             <img
@@ -53,6 +54,7 @@ function Hero() {
 
         </h1>
       </section>
+      </div>
     </>
   )
 }
